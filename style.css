@@ -296,7 +296,7 @@ line-height: 1.5;
   color: #807e7e;
 }
 
-  /* Contact us Section 5  */
+ /* Contact us Section 5  */
 .hero5 {
   display: flex;
   justify-content: center;
@@ -324,6 +324,7 @@ line-height: 1.5;
   margin-inline-start: 4px;
   line-height: 1.5;
 }
+
 
 .text5 {
   padding-top: 50px;

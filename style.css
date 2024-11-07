@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hero Section 1 */
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  padding-top: 20px;
+  padding: 1rem;
+  margin-top: 15px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 1); */
+}
+
+p{
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 2rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.active{
+  color:  color: rgb(8, 145, 69);
+}
+
+.hero1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 70px;
+}
+
+#tasty {
+  color: rgb(8, 145, 69);
+  font-size: 3.3rem;
+  margin-bottom: 1rem;
+}
+
+.hero1 p {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+  color: #3a3939;
+  font-weight: bold;
+  margin-inline-start: 4px;
+  line-height: 1.5;
+}
+
+img {
+  width: 350px;
+}
+
+.text {
+  padding-top: 70px;
+}
+
+.cta {
+  background-color: rgb(8, 145, 69);
+  border-radius: 10px;
+  color: white;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid;
+  /* text-decoration: none; */
+  /* display: inline-block; */
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: black;
+}
+
+nav li a:hover,
+nav li a.active {
+color: rgb(8, 145, 69);
+}
+
+
+/* Special Menu Section 2 */
+
+.img2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.hero2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 90px;
+}
+
+h6{
+  color: rgb(9, 182, 87);
+  font-size: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.text2 {
+  padding-top: 20px;
+}
+
+.pabout{
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #3a3939;
+  line-height: 1.5;
+}
+
+.pabout2 {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  color: #817e7e;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+.cta2 {
+  background-color: rgb(9, 182, 87);
+  border-radius: 6px;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid;
+}
+
+
+/* Special Menu Section 3 */
+
+.menu{
+  justify-items: center;
+  padding-top: 100px;
+}
+
+h5{
+  margin-bottom: 10px;
+  color: rgb(8, 145, 69);
+}
+
+.menu p{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.special{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.box1{
+  width: 150px;
+  height: 194px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box1 img{
+  width: 90px;
+  height: 90px;
+  border-radius: 8px 8px 0 0;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.spec{
+  text-align: left;
+  font-size: 0.9rem;
+  padding-left: 20px;
+}
+
+.h6{
+  color: #333;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.deli{
+  font-size: 0.6rem;
+}
+
+.price{
+  color: #333;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 0.6rem;
+}
+
+
+.fa-cart-shopping{
+color: white;
+background-color: rgb(4, 143, 74);
+border-radius: 5px 0 5px 0;
+float: inline-end;
+padding: 0.1rem 0.2rem;
+}
+
+/* 2nd div  */
+.box2{
+  width: 150px;
+  height: 194px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box2 img{
+  width: 90px;
+  height: 90px;
+  border-radius: 8px 8px 0 0;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.box3{
+  width: 150px;
+  height: 194px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box3 img{
+  width: 90px;
+  height: 90px;
+  border-radius: 8px 8px 0 0;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.special2{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+
+/* Offering Section 4 */
+.Offering{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 190px;
+}
+
+.offer{
+color: #524f4f;
+font-size: 0.9rem;
+font-weight: bold;
+}
+
+.svg1{
+  width: 40px;
+  height: 85px;
+}
+
+.texx{
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+}
+
+.tex{
+text-align: center;
+font-size: 0.7rem;
+font-weight: bold;
+margin-bottom: 1rem;
+line-height: 1.5;
+}
+
+.tert{
+  color: #807e7e;
+}

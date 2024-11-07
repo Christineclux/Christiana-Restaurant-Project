@@ -295,3 +295,56 @@ line-height: 1.5;
 .tert{
   color: #807e7e;
 }
+
+  /* Contact us Section 5  */
+.hero5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 100px;
+}
+
+#contact {
+  color: rgb(8, 145, 69);
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+#contactus {
+  color: #333;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.hero1 p {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+  color: #3a3939;
+  font-weight: bold;
+  margin-inline-start: 4px;
+  line-height: 1.5;
+}
+
+.text5 {
+  padding-top: 50px;
+}
+
+.pabout5{
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  color: rgb(114, 112, 112);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.cta5 {
+  background-color: rgb(8, 145, 69);
+  border-radius: 8px;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  width: 120px;
+  height: 35px;
+  margin-top: 85px;
+  font-size: 0.7rem;
+}
